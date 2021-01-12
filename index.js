@@ -17,6 +17,7 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var textBase = "The line is currently: "
+    var lineList = [];
 
     for (let i = 0; i < katzDeliLine.length; i++) {
       `${i + 1}. ${katzDeliLine[i]}`
