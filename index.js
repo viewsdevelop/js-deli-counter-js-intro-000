@@ -20,5 +20,7 @@ function currentLine(katzDeliLine) {
       for (let i = 0; i < katzDeliLine.length; i++) {
         `${i + 1}. ${katzDeliLine[i]}`
       }
+  } else {
+    return "There is nobody waiting to be served!"
   }
 }
